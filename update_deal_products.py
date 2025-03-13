@@ -25,6 +25,7 @@ DATA_FILE = "test.json"
 
 # Load products from the JSON file
 products = load_file("products.json")
+products.reverse()
 
 # Record the start time
 start = time.time()
